@@ -1,0 +1,174 @@
+body {
+	background-color: #f4f3ed;
+}
+
+.link-container {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+
+
+}
+
+.link-container a {
+	margin: 40px;
+	margin-top: 5px;
+	text-decoration: none;
+	color: black;
+
+}
+
+.link-container img {
+	width: 130px;
+	height: 45px;
+	margin-right: 200px;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+
+.right-button {
+	margin-top: 5px;
+	background-color: #ffbf00;
+	border: none;
+	border-radius: 25px;
+	padding: 10px 30px;
+	font-size: 16px;
+	font-weight: bold;
+
+
+}
+
+
+.center-button {
+	background-color: #ffbf00;
+	text-decoration: none;
+	border: none;
+	border-radius: 25px;
+	padding: 20px 30px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 30px;
+
+}
+
+.main-content {
+	margin-top: 20px;
+}
+
+h1 {
+	font-family: var(--body-font-family, sans-serif);
+	font-weight: inherit;
+	font-size: 80px;
+	margin-top: 120px;
+	padding: 0 250px;
+}
+
+.main-content h2 {
+	text-align: center;
+	font-size: 26px;
+	font-weight: lighter;
+	padding: 0 300px;
+}
+
+section {
+	text-align: center;
+	margin-top: 90px;
+}
+
+.image-1 img {
+	width: 1380px;
+}
+
+article {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.images img {
+	width: 448px;
+	height: 600px;
+	margin-left: 18px;
+}
+
+aside {
+	display: flex;
+	justify-content: space-around;
+	/* Placera elementen jämnt mellanrum horisontellt */
+	align-items: center;
+	background-color: rgba(160, 221, 245, 0.438);
+	margin-top: 50px;
+}
+
+.image-container {
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+
+.image-container img {
+	width: 300px;
+	/* Justera bredden efter dina bilder */
+	height: auto;
+}
+
+.image-container h3 {
+	margin-top: 10px;
+	/* Lägg till önskat vertikalt mellanrum mellan bild och text */
+}
+
+.image-container p {
+	width: 300px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+
+footer {
+	background-color: #1f1a38;
+	color: #fff;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+h2 {
+	text-align: left;
+	font-size: 36px;
+}
+
+.footer-left p {
+	text-align: right;
+
+}
+
+.footer-right {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-column {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.footer-column h4 {
+	color: #fff;
+	font-size: 18px;
+}
+
+.footer-column ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer-column ul li {
+	margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+	text-decoration: underline;
+}
